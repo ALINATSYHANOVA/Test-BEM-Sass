@@ -1,0 +1,54 @@
+@import "../vars/vars.scss";
+
+.main__mainscreen {
+    background-image: url(../../assets/bg-mainscreen.png);
+    height: 716px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding-top: 170px;
+    color: $white;
+
+    .main__mainscreen-content {
+        width: 780px;
+
+        .main__mainscreen-subtitle-text {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 140%;
+            margin: 28px 0 52px 0;
+        }
+        .main__mainscreen-btn {
+            display: flex;
+            justify-content: space-between;
+            width: 735px;
+            .main__btn-orange {
+                width: 362px;
+            }
+            .main__btn-white {
+                width: 341px;
+                background: rgba(255, 255, 255, 0.2);
+                border: 1px solid $white;
+            }
+        }
+    }
+}
+    
+.main__anticrisis {
+    .title-second__orange {
+        color: $orange;
+    }
+}
+.main__anticrisis-content {
+    display: flex;
+    justify-content: space-between;
+    .main__anticrisis-block-1 {
+        background: linear-gradient(180deg, rgba(51, 51, 51, 0) 0%, #333333 86.98%), url(../../assets/anticrisis/anticrisis1.png);
+    }
+    .main__anticrisis-block-2 {
+        background: linear-gradient(180deg, rgba(51, 51, 51, 0) 0%, #333333 86.98%), url(../../assets/anticrisis/anticrisis2.png);
+    }
+    .main__anticrisis-block-3 {
+        background: linear-gradient(180deg, rgba(51, 51, 51, 0) 0%, #333333 86.98%), url(../../assets/anticrisis/anticrisis3.png);
+    } 
+}
